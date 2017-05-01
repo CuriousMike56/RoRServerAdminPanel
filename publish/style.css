@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+.tdmain {	
+	text-align: center;
+	vertical-align: top;
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	padding-top: 25px;
+	margin: 0px;
+	
+	
+	width: 100px;
+	height: 100px;
+	
+	
+	background-color: #fff;
+	background: #fff;
+}
+
+.mainmenu {
+	background-color: #fff;
+}
+
+.tdlink:hover {
+	background-color: #CCCCFF;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.maintable {
+	margin: auto;
+	border: 1px solid #000000;
+	min-width: 410px;
+	background: #fff;
+}
+
+.oldlog_row:hover {
+	background-color: #CCCCFF;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.serverlist_row {
+	border-top: 1px solid #000000;
+	text-align: left;
+	height: 29px;
+	position: relative;
+	background: #fff;
+}
+
+.serverlist_row:hover {
+	background-color: #CCCCFF;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.serverlist_field {
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	margin: 0;
+	
+}
+
+.serverlist_statusimg {
+	vertical-align: middle;
+}
+
+.serverlist_statusfield {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	margin:0;
+	width: 100%;
+}
+
+.serverlist_namefield {
+	vertical-align: middle;
+}
+
+.serverlist_actionfield {
+	position: absolute;
+	right: 0;
+	top: 2px;
+	margin:0;
+}

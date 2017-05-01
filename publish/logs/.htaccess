@@ -1,0 +1,5 @@
+Options +Indexes
+AuthName "Logs"
+AuthType Basic
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user

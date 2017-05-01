@@ -1,0 +1,14 @@
+apt-get --yes --force-yes install php-mcrypt  
+apt-get --yes --force-yes install php-memcache
+apt-get --yes --force-yes install php-mysql   
+apt-get --yes --force-yes install php-odbc    
+apt-get --yes --force-yes install php-pspell  
+apt-get --yes --force-yes install php-recode  
+apt-get --yes --force-yes install php-redis   
+apt-get --yes --force-yes install php-snmp    
+apt-get --yes --force-yes install php-sqlite  
+apt-get --yes --force-yes install php-tidy    
+apt-get --yes --force-yes install php-xcache  
+apt-get --yes --force-yes install php-xmlrpc  
+apt-get --yes --force-yes install php-xsl     
+apt-get --yes --force-yes install pkg-php-tools                                   
