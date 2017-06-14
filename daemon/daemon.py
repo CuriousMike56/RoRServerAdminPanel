@@ -636,12 +636,12 @@ class exposedFunctions:
                         binfile,
                         "-c", "%s/%s.cfg" % (CFG_DIR, serverName),
                         "-fg",
-                        "-verbosity", "6",
-                        "-logfilename", os.path.abspath("%s/%s.log" % (LOG_DIR, serverName)),
-                        "-resdir", "%s/" % RES_DIR,
-                        "-authfile", os.path.abspath("%s/%s.auth" % (CFG_DIR, serverName)),
-                        "-motdfile", os.path.abspath("%s/%s.motd" % (CFG_DIR, serverName)),
-                        "-rulesfile", os.path.abspath("%s/%s.rules" % (CFG_DIR, serverName))
+                        "-verbosity", "0",
+                        "-log-file", os.path.abspath("%s/%s.log" % (LOG_DIR, serverName)),
+                        "-resource-dir", "%s/" % RES_DIR,
+                        "-auth-file", os.path.abspath("%s/%s.auth" % (CFG_DIR, serverName)),
+                        "-motd-file", os.path.abspath("%s/%s.motd" % (CFG_DIR, serverName)),
+                        "-rules-file", os.path.abspath("%s/%s.rules" % (CFG_DIR, serverName))
                     ]
                 )
                 server_pid = server_process[serverName]['process'].pid
