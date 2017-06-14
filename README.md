@@ -1,4 +1,4 @@
-# Rigs of Rods Server Admin Panel
+# Rigs of Rods Server Admin Panel - RoRNet 2.38
 
 This is a webpanel for Rigs of Rods servers, originally developed by Neorej16 (Original repo [Here](https://github.com/Strykr1/rormpservadmin)).
 
